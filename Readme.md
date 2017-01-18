@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Владислав Сысоев](https://up.htmlacademy.ru/htmlcss/16/user/332289).
-* Наставник: [Владимир Цибизов] (https://htmlacademy.ru/profile/vlad_blow)
+* Наставник: [Владимир Цибизов](https://htmlacademy.ru/profile/vlad_blow)
 
 ---
 
