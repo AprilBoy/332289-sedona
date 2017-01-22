@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>HTML Academy: Седона</title>
   </head>
-  <body>
+  <body class="container">
 		<header class="main-header">
 			<div class="container">
 				<nav class="main-navigation">
@@ -25,115 +25,103 @@
 				</nav>
 			</div>
 		</header>
-		<main class="container">
+		<main>
 			<div class="index-logo">
-				<p>Welcome <hr> to the gorgeous<hr></p>
-				<p>Sedona</p>
+				<p>Welcome &mdash;to the gorgeous&mdash;</p>
+					<p>Sedona</p>
 				<p>"Because the Grand Canyon sucks!"</p>
 				<img src="img/index-logo.png" width="368" height="204" alt="Sedona">
 			</div>
-		</main>
-		<section class="features">
-			<h2>Седона небоьшой городок в Аризоне, заслуживающий большего!</h2>
-			<br>
-			<h6 class="reasons"> РАССМОТРИ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</h6>
-		</section>
-		<div class="features-item-1">
-			<div class="item-left-1">
+			<section class="features">
+				<h1>Седона небоьшой городок в Аризоне, заслуживающий большего!</h1>
+				<span class="reasons"> РАССМОТРИ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</span>
+			</section>
+		<div class="feature-items">
+			<div class="feature-item features-item-left">
 				<p>НАСТОЯЩИЙ  ГОРОДОК</p>
-				<br>
-				<p>-№1-</p>
+				<p>&mdash;№1&mdash;</p>
 				<p>СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
-			</div>	
-			<img class="item-right-1" src="http://placehold.it/150x100">
+			</div>
+			<img class="image-right" src="http://placehold.it/150x100">
 		</div>
 		<div class="house">
 			<img class="home" src="http://placehold.it/150x100">
 			<p>ЖИЛЬЕ</p>
-			<br>
 			<p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
 		</div>
 		<div class="food">
 			<img class="burger" src="http://placehold.it/150x100">
 			<p>ЕДА</p>
-			<br>
 			<p>ВСЕГДА ЗАКАЗЫВАЙТКЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ</p>
 		</div>
 		<div class="gift">
 			<img class="box" src="http://placehold.it/150x100">
 			<p>СУВЕНИРЫ</p>
-			<br>
 			<p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
 		</div>
-		<div class="features-item-2">
-			<div class="item-right-2">
+		<img class="image-left" src="http://placehold.it/150x100">
+		<div class="feature-items">
+			<div class="feature-item features-item-right">
 				<p>МОСТ ДЬЯВОЛА</p>
-				<br>
-				<p>-№2-</p>
+				<p>&mdash;№2&mdash;<p>
 				<p>ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
-			</div>	
-			<img class="item-left-2" src="http://placehold.it/150x100">
+			</div>
 		</div>
-		<div class="features-item-3">
-			<div class="item-left-3">
+		<div class="feature-items">
+			<div class="feature-item features-item-left">
 				<p>НЕБОЛЬШАЯ ПЛОЩАДЬ</p>
-				<br>
-				<p>-№3-</p>
+				<p>&mdash;№3&mdash;</p>
 				<p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
-			</div>	
+			</div>
 	  </div>
-	  <div class="features-item-4">
-			<div class="item-center">
+	  <div class="feature-items">
+			<div class="feature-item features-item-center">
 				<p>КРАСИВАЯ ДОРОГА</p>
-				<br>
-				<p>-№4-</p>
+				<p>&mdash;№4&mdash;</p>
 				<p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО</p>
-			</div>	
+			</div>
 	  </div>
-	  <div class="features-item-5">
-			<div class="item-right-3">
+	  <div class="feature-items">
+			<div class="feature-item features-item-right">
 				<p>МАЛО ТУРИСТОВ</p>
-				<br>
-				<p>-№5-</p>
+				<p>&mdash;№5&mdash;</p>
 				<p>БОЛЬШИНСТВО ЕДЕТ В ГРАДН КАНЬОН И ТОЛПИТСЯ ТАМ</p>
-			</div>	
+			</div>
 		</div>
 		<div class="form-hotel">
 			<h2>Заинтересовались?</h2>
-			<br>
 			<p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
-			
 			<form action="#" method="post">
-				<label for="time-log-in"> ДАТА ЗАЕЗДА:</label>
-				<input type="date" name=calendar id="time-log-in">
-				<br>
-				<label for="time-log-out"> ДАТА ВЫЕЗДА </label>
-				<input type="date" name=calendar id="time-log-out">
-				<br>
-				<label for="adults"> ВЗРОСЛЫЕ:</label>
-				<select name="count" id="adults">
-					<option value="1">1</option>
-					<option value="2">2</option>
-				</select>
-				<br>
-				<label for="adults"> ДЕТИ:</label>
-				<select name="count" id="children">
-					<option value="1">1</option>
-					<option value="2">2</option>
-				</select>
-				<br>
+				<div>
+					<label for="time-log-in"> ДАТА ЗАЕЗДА:</label>
+					<input type="date" name=calendar id="time-log-in">
+				</div>
+				<div>
+					<label for="time-log-out"> ДАТА ВЫЕЗДА </label>
+					<input type="date" name=calendar id="time-log-out">
+				</div>
+				<div>
+					<label for="adults"> ВЗРОСЛЫЕ:</label>
+					<input ="number" id="adults">
+				</div>
+				<div>
+					<label for="children"> ДЕТИ:</label>
+					<input type="number" id="children">
+				</div>
 				<input type="submit" value="НАЙТИ">
 			</form>
-			<map></map>
 		</div>
+		<div class="map">
+		</div>
+		</main>
 		<footer class="main-footer">
 			<div class="container">
 				<section class="footer-contacts">
 					<a href="#">#VISITSEDONA</a><br>
 				</section>
 				<section class="footer-social">
-					<a class="social-btn social-btn-twt" href="#">tweeter</a>
-					<a class="social-btn social-btn-fb" href="#">facebok</a>
+					<a class="social-btn social-btn-twt" href="#">twitter</a>
+					<a class="social-btn social-btn-fb" href="#">facebook</a>
 					<a class="social-btn social-btn-ytb" href="#">youtube</a>
 				</section>
 				<section class="footer-copyright">
@@ -142,7 +130,5 @@
 				</section>
 			</div>
 		</footer>
-		<!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p> -->
-
 	</body>
 </html>
