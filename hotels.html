@@ -1,124 +1,123 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <title>HTML Academy: Седона</title>
+ <meta charset="utf-8">
+ <title>HTML Academy: Седона</title>
 </head>
 <body class="container">
-  <header class="main-header">
-   <nav class="main-navigation">
-    <ul>
-      <li>
-        <a href="#">Информация</a>
-      </li>
-      <li>
-        <a href="#">Фото и Видео</a>
-      </li>
-      <a>
-        <img src="http://placehold.it/150x100">
-      </a>
-      <li>
-        <a href="#">Карта Штата</a>
-      </li>
-      <li>
-       <a href="#">Гостиницы</a>
-     </li>
+ <header class="main-header">
+  <nav class="main-navigation">
+   <ul>
+    <li>
+     <a href="#">Информация</a>
+    </li>
+    <li>
+     <a href="#">Фото и Видео</a>
+    </li>
+    <a>
+     <img src="http://placehold.it/150x100">
+    </a>
+    <li>
+     <a href="#">Карта Штата</a>
+    </li>
+    <li>
+     <a href="#">Гостиницы</a>
+    </li>
    </ul>
- </nav>
-</header>
-<main>
+  </nav>
+ </header>
+ <main>
   <div class="choice">
-    <div class="infrastructure"	>
-      <span>Инфраструктура:</span>
-      <div>
-        <input type="checkbox" name="choice" id="choose-product-1">
-        <label for="choose-product-1" >Бассейн</label>
-      </div>
-      <div>
-        <input type="checkbox" name="choice" id="choose-product-2">
-        <label for="choose-product-2" >Парковка</label>
-      </div>
-      <div>
-        <input type="checkbox" name="choice" id="choose-product-3">
-        <label for="choose-product-3" >WiFi</label>
-      </div>
+   <div class="infrastructure" >
+    <span>Инфраструктура:</span>
+    <div>
+     <input type="checkbox" name="choose-product-1" id="choose-product-1">
+     <label for="choose-product-1" >Бассейн</label>
     </div>
+    <div>
+     <input type="checkbox" name="choose-product-2" id="choose-product-2">
+     <label for="choose-product-2" >Парковка</label>
+    </div>
+    <div>
+     <input type="checkbox" name="choose-product-3" id="choose-product-3">
+     <label for="choose-product-3" >WiFi</label>
+    </div>
+   </div>
   </div>
   <div class="choice">
-    <div class="type-of-shelter">
-      <span>Тип Жилья:</span>
-      <div>
-        <input type="checkbox" name="choice" id="choose-product-4">
-        <label for="choose-product-4">Гостиница</label>
-      </div>
-      <div>
-        <input type="checkbox" name="choice" id="choose-product-5">
-        <label for="choose-product-5">Мотель</label>
-      </div>
-      <div>
-        <input type="checkbox" name="choice" id="choose-product-6">
-        <label for="choose-product-6">Апартаменты</label>
-      </div>
+   <div class="type-of-shelter">
+    <span>Тип Жилья:</span>
+    <div>
+     <input type="checkbox" name="choose-product-4" id="choose-product-4">
+     <label for="choose-product-4">Гостиница</label>
     </div>
+    <div>
+     <input type="checkbox" name="choose-product-5" id="choose-product-5">
+     <label for="choose-product-5">Мотель</label>
+    </div>
+    <div>
+     <input type="checkbox" name="choose-product-6" id="choose-product-6">
+     <label for="choose-product-6">Апартаменты</label>
+    </div>
+   </div>
   </div>
   <div class="cost">
-    <span>Стоимость в сутки (р):</span>
-    <div>
-      <span>от 0</span>
-      <span>до 3000</span>
-      <div class="line"></div>
-      <div class="dot"></div>
-      <input type="submit" value="Показать" id="show">
-    </div>
-   
+   <span>Стоимость в сутки (р):</span>
+   <form>
+    <span>от 0</span>
+    <span>до 3000</span>
+    <div class="line"></div>
+    <div class="dot"></div>
+    <input type="submit" value="Показать" >
+   </form>
   </div>
   <div class="find">
-    <h2>Найдено:3<h2>
-      <span>Сортировка<span>
-      <a href ="#">по цене</a>
-      <a href ="#">по типу</a>
-      <a href ="#">по рейтенгу</a>
+   <h2>Найдено:3<h2>
+    <span>Сортировка<span>
+     <a href ="#">по цене</a>
+     <a href ="#">по типу</a>
+     <a href ="#">по рейтенгу</a>
     </div>
     <div class="hotel">
-      <img src="http://placehold.it/150x100">
-      <h2>Amara Resort &amp; Spa</h2>
-      <p>Гостиница</p>
-      <p>от 3500р</p>
-      <a href="#">Показать</a>
-      <a href="#">Забронировать</a>
+     <img src="http://placehold.it/150x100">
+     <h2>Amara Resort &amp; Spa</h2>
+     <span>Гостиница</span>
+     <span>от 3500р</span>
+     <a href="#">Показать</a>
+     <a href="#">Забронировать</a>
     </div>
     <div class ="hotel">
-      <img src="http://placehold.it/150x100">
-      <h2>Desert Quail Inn</h2>
-      <p>Мотель</p>
-      <p>от 3500р</p>
-      <a href="#">Показать</a>
-      <a href="#">Забронировать</a>
+     <img src="http://placehold.it/150x100">
+     <h2>Desert Quail Inn</h2>
+     <span>Мотель</span>
+     <span>от 3500р</span>
+     <a href="#">Показать</a>
+     <a href="#">Забронировать</a>
     </div>
     <div class ="hotel">
-      <img src="http://placehold.it/150x100">
-      <h2>Villas At Poco Diablo</h2>
-      <p>Апартаменты</p>
-      <p>от 3500р</p>
-      <a href="#">Показать</a>
-      <a href="#">Забронировать</a>
+     <img src="http://placehold.it/150x100">
+     <h2>Villas At Poco Diablo</h2>
+     <span>Апартаменты</span>
+     <span>от 3500р</span>
+     <a href="#">Показать</a>
+     <a href="#">Забронировать</a>
     </div>
-  </main>
-  <footer class="main-footer">
+   </main>
+   <footer class="main-footer">
     <div class="container">
-      <section class="footer-contacts">
-        <a href="#">#VISITSEDONA</a><br>
-      </section>
-      <section class="footer-social">
-        <a class="social-btn social-btn-twt" href="#">twitter</a>
-        <a class="social-btn social-btn-fb" href="#">facebook</a>
-        <a class="social-btn social-btn-ytb" href="#">youtube</a>
-      </section>
-      <section class="footer-copyright">
-        <p>Website by:</p>
-        <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-      </section>
+     <section class="footer-contacts">
+      <a href="#">#VISITSEDONA</a><br>
+     </section>
+     <section class="footer-social">
+      <a class="social-btn social-btn-twt" href="#">twitter</a>
+      <a class="social-btn social-btn-fb" href="#">facebook</a>
+      <a class="social-btn social-btn-ytb" href="#">youtube</a>
+     </section>
+     <section class="footer-copyright">
+      <p>Website by:</p>
+      <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+     </section>
     </div>
-  </footer>
-</body>
-</html>
+   </footer>
+  </body>
+  </html>
