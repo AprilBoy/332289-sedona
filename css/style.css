@@ -5,6 +5,16 @@ body{
 	font-weight:bold;
 	text-transform: uppercase;
 	line-height: 1.857;
+  width: 1280px;
+  margin:0 auto;
+
+}
+
+body{
+	background:  #fff url("background-photo.jpg") no-repeat 50% 3px ;
+  background-size: 1200px 546px;
+  	
+  	padding: 0;
 }
 
 h1{
@@ -25,4 +35,160 @@ h2{
   	line-height: 1;
 }
 
+.main-header{
+  
+	min-height: 60px;
+  margin:0 auto;
+  margin-bottom:55px;
 
+}
+
+.main-navigation{
+  background-color:#fff;
+   min-height: 60px;
+	width: 1200px;
+ margin:0 auto;
+ 
+}
+
+main{
+width:1200px;
+margin:0 auto;
+
+}
+.index-logo{
+width: 140px;
+margin:0 44%;
+height: 70px;
+
+}
+.welcome{
+  
+  margin:0 31%;
+  
+}
+
+.mask{
+  
+margin:0 auto;
+}
+
+
+.features{
+  background:#fff;
+  margin-top: 0;
+  padding-top:60px; 
+width:1200px;
+height: 1312px;
+
+
+}
+
+.reason{
+text-align:center;
+  width: 576px;
+  height:100px;
+  margin:0 auto;
+  margin-bottom:55px;
+}
+
+.feature-item{
+
+  width:1200px;
+  height:256px;
+  margin:0 auto;
+}
+
+.real-city{
+  
+height:256px;
+width: 400px;
+float:left;
+}
+.devil-bridge{
+  height:256px;
+width: 400px;
+float:right;
+}
+
+.features-item-blue{
+  color:#fff;
+  text-align:center;
+  background:#81b3d2;
+}
+.background-right{
+  float:right;
+}
+.background-left{
+  float:left;
+}
+
+.container{
+  
+  text-align:center;
+height:330px;
+margin:0 auto;
+}
+ .container-item{
+  vertical-align:center;
+  width:400px;
+  height:330px;
+  float:left;
+  margin: 0 auto;
+ }
+
+ .container-gray{
+  text-align:center;
+  height:254px;
+  background: #eeeeee;
+  margin:0 auto;
+ }
+
+ .features-item-gray{
+   width:400px;
+  height:254px;
+  float:left;
+ }
+
+.form-hotel{
+  text-align: center;
+height:292px;
+margin:0 auto;
+}
+
+.brown{
+  color:#fff;
+  vertical-align:center;
+  text-align:center;
+  background:#766357;
+  width:569px;
+  height: 87px;
+  margin:0 auto;
+  margin-top:180px;
+}
+
+.map{
+  background:url("map1.jpg") no-repeat;
+  height:474px;
+  width: 1200px;
+  margin:0 auto;
+}
+
+.form{
+  background:#fff;
+  width:569px;
+  height:396px;
+   margin:0 auto;
+}
+.footer-container{
+  height: 118px;
+  width: 1200px;
+  margin:0 auto;
+
+}
+
+.footer-item{
+  width: 400px;
+  float:left;
+  margin:0 auto;
+}
