@@ -10,82 +10,96 @@ body{
 
 }
 
-body{
-	background:  #fff url("background-photo.jpg") no-repeat 50% 3px ;
-  background-size: 1200px 546px;
-  	
-  	padding: 0;
-}
-
 h1{
 	font-size: 30px;
-  	font-family: "PTSans", sans serif;
+  font-family: "PTSans", sans serif;
  	color: rgb(0, 0, 0);
-  	font-weight: bold;
-  	text-transform: uppercase;
-  	line-height: 0.8;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.8;
 }
 
 h2{
 	font-size: 21px;
-  	font-family: "PTSans", sans serif;
-  	color: rgb(0, 0, 0);
-  	font-weight: bold;
-  	text-transform: uppercase;
-  	line-height: 1;
+  font-family: "PTSans", sans serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+main{
+  width:1200px;
+  margin:0 auto;
+
 }
 
 .main-header{
-  
 	min-height: 60px;
   margin:0 auto;
   margin-bottom:55px;
 
 }
 
+.main-header-index {
+  background: url("../img/background-photo.jpg") no-repeat 50% 3px ;
+  background-size: 1200px 546px;
+  padding: 0;
+
+}
+
+.main-header-hotels {
+  background: url("../img/filter-background.jpg") no-repeat 50% 1px ;
+  background-size: 1200px 219px;
+  padding: 0;
+}
+
 .main-navigation{
+ 
   background-color:#fff;
-   min-height: 60px;
+  min-height: 60px;
 	width: 1200px;
- margin:0 auto;
+  margin:0 auto;
  
 }
 
-main{
-width:1200px;
-margin:0 auto;
+.main-navigation > ul { 
+   display: flex;
+   width:1160px;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 
-}
+ }
+
 .index-logo{
-width: 140px;
-margin:0 44%;
-height: 70px;
-
+  width: 140px;
+  margin:0;
+  height: 70px;
+  position:absolute;
 }
+
 .welcome{
-  
   margin:0 31%;
   
 }
 
 .mask{
-  
 margin:0 auto;
-}
 
+}
 
 .features{
   background:#fff;
   margin-top: 0;
   padding-top:60px; 
-width:1200px;
-height: 1312px;
+  width:1200px;
+  height: 1312px;
 
 
 }
 
 .reason{
-text-align:center;
+  text-align:center;
   width: 576px;
   height:100px;
   margin:0 auto;
@@ -99,16 +113,104 @@ text-align:center;
   margin:0 auto;
 }
 
-.real-city{
+.choice {
+  color: #fff;
+  min-height: 219px;
+  margin: 0 73px;
+
   
-height:256px;
-width: 400px;
-float:left;
 }
-.devil-bridge{
+
+.cost {
+  float: right;
+  
+} 
+
+.infrastructure {
+  float: left;
+  margin-right: 114px;
+  
+}
+
+.type-of-shelter {
+  float: left;
+}
+
+
+.find {
+  display: inline-block;
+  width: 1200px;
+  min-height: 87px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-right:40px;
+}
+
+.find > h2 {
+  display:inline-block;
+  margin-right:50px;
+}
+
+.hotel {
+  padding-top: 30px;
+  min-height: 150px;
+  border-bottom: 1px solid #e5e5e5;
+  
+}
+
+.sort {
+  font-size: 12pt;
+  margin-right:40px;
+}
+
+.price {
+  font-size: 12pt;
+  color:#81b3d2;
+  margin-right:40px;
+}
+
+.type {
+  font-size: 12pt;
+  margin-right:40px;
+}
+
+.mmr {
+  font-size: 12pt;
+
+}
+
+.arrows {
+  float: right;
+}
+
+.shelter-photo {
+  float: left;
+  margin-right: 30px;
+}
+
+.host {
+  margin-right: 60px;
+}
+
+.stars {
+  float: right; 
+  color: #81b3d2;
+  font-size: 14pt;
+  margin-top:-50px;
+}
+
+.rank {
+  float: right;
+}
+.real-city{
   height:256px;
-width: 400px;
-float:right;
+  width: 400px;
+  float:left;
+}
+
+.devil-bridge{
+  height: 256px;
+  width: 400px;
+  float: right;
 }
 
 .features-item-blue{
@@ -168,7 +270,7 @@ margin:0 auto;
 }
 
 .map{
-  background:url("map1.jpg") no-repeat;
+  background:url("../img/map1.jpg") no-repeat;
   height:474px;
   width: 1200px;
   margin:0 auto;
