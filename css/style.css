@@ -48,10 +48,25 @@ footer {
 
 .promo {
 	background: url("../img/background-photo.jpg") no-repeat  ;
-	background-size: 1200px 466px;
-	padding-top: 50px;
+	background-size: 1200px 588px;
+	min-height: 460px;
+	padding-top: 132px;
 	margin-top: -60px;
 
+}
+
+.promo img {
+	margin-bottom:40px;
+}
+
+.promo::after {
+	display: block;
+	content:"";
+	width: 1200px;
+	min-height: 58px;
+	padding-top: 50px;
+background: url("../img/main-background-mask.png") no-repeat;
+background-size: 1200px 58px;
 }
 
 .main-header-hotels {
@@ -61,7 +76,7 @@ footer {
 }
 
 .main-navigation{
-	background-color:#fff;
+	background:#ffffff;
 	min-height: 60px;
 	width: 1200px;
 	margin:0 auto;
@@ -102,18 +117,12 @@ footer {
 
 .welcome{
 	margin:0 31%;
-
 }
 
-.mask{
-	margin:0 auto;
-
-}
 
 .features{
 	background:#fff;
 	margin-top: 0;
-	padding-top:60px; 
 	width:1200px;
 	height: 1312px;
 
