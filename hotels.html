@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>HTML Academy: Седона</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
 	<header class=" main-header main-header-hotels">
@@ -32,47 +33,45 @@
 			<div class="choice">
 				<div class="infrastructure" >
 					<span>Инфраструктура:</span>
-					<form action="https://echo.htmlacademy.ru" method="get">
-						<div>
-							<input type="checkbox" name="pool" id="choose-product-1">
-							<label for="choose-product-1" >Бассейн</label>
-						</div>
-						<div>
-							<input type="checkbox" name="parking" id="choose-product-2">
-							<label for="choose-product-2" >Парковка</label>
-						</div>
-						<div>
-							<input type="checkbox" name="wifi" id="choose-product-3">
-							<label for="choose-product-3" >WiFi</label>
-						</div>
+					<div>
+						<input type="checkbox" name="pool" id="choose-product-1">
+						<label for="choose-product-1" >Бассейн</label>
 					</div>
-					<div class="type-of-shelter">
-						<span>Тип Жилья:</span>
-						<div>
-							<input type="checkbox" name="hotel" id="choose-product-4">
-							<label for="choose-product-4">Гостиница</label>
-						</div>
-						<div>
-							<input type="checkbox" name="motel" id="choose-product-5">
-							<label for="choose-product-5">Мотель</label>
-						</div>
-						<div>
-							<input type="checkbox" name="apartments" id="choose-product-6">
-							<label for="choose-product-6">Апартаменты</label>
-						</div>
+					<div>
+						<input type="checkbox" name="parking" id="choose-product-2">
+						<label for="choose-product-2" >Парковка</label>
 					</div>
-					<div class="cost">
-						<span>Стоимость в сутки (р):</span>
-						<br>
-						<div class="price-box">
-							<span>от 0</span>
-							<span>до 3000</span>
-							<div class="line"></div>
-							<div class="dot"></div>
-						</div>
-						<input type="submit" value="Показать" >
+					<div>
+						<input type="checkbox" name="wifi" id="choose-product-3">
+						<label for="choose-product-3" >WiFi</label>
 					</div>
-				</form>
+				</div>
+				<div class="type-of-shelter">
+					<span>Тип Жилья:</span>
+					<div>
+						<input type="checkbox" name="hotel" id="choose-product-4">
+						<label for="choose-product-4">Гостиница</label>
+					</div>
+					<div>
+						<input type="checkbox" name="motel" id="choose-product-5">
+						<label for="choose-product-5">Мотель</label>
+					</div>
+					<div>
+						<input type="checkbox" name="apartments" id="choose-product-6">
+						<label for="choose-product-6">Апартаменты</label>
+					</div>
+				</div>
+				<div class="cost">
+					<span>Стоимость в сутки (р):</span>
+					<br>
+					<div class="price-box">
+						<span>от 0</span>
+						<span class="vertical-line">&#124;</span>
+						<span>до 3000</span>
+					</div>
+					<input type="range" min="0" max="3000" step="500" value="50">
+					<a class="range" href="#">Показать</a>
+				</div>
 			</div>
 			<div class="find">
 				<h2>Найдено:3</h2>
@@ -80,39 +79,42 @@
 				<a class="price" href ="#">по цене</a>
 				<a  class="type" href ="#">по типу</a>
 				<a class="mmr" href ="#">по рейтингу</a>
-				<div class="arrows">&#9650; &#9660;</div>
+				<div class="arrows">
+					<a href="#" class="arrows right">&#9660;</a> 
+					<a href="#" class="arrows left">&#9650;</a>
+				</div>
 			</div>
 			<div class="hotel">
 				<img class="shelter-photo " src="img/amara.jpg" alt="amara">
-				<h2>Amara Resort &amp; Spa</h2>
+				<h2 class="name">Amara Resort &amp; Spa</h2>
 				<div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
 				<span class= "host">Гостиница</span>
 				<span>от 3500р</span>
 				<br>
-				<a href="#">Показать</a>
-				<a href="#">Забронировать</a>
+				<a class="show" href="#">Подробнее</a>
+				<a  class="booking" href="#">Забронировать</a>
 				<div class="rank">Рейтинг: 8,5</div>
 			</div>
 			<div class ="hotel">
 				<img class="shelter-photo" src="img/desert.jpg" alt="desert">
-				<h2>Desert Quail Inn</h2>
+				<h2 class="name">Desert Quail Inn</h2>
 				<div class="stars">&#9733;&#9733;&#9733;</div>
 				<span class= "host">Мотель</span>
 				<span>от 3500р</span>
 				<br>
-				<a href="#">Показать</a>
-				<a href="#">Забронировать</a>
+				<a class="show" href="#">Подробнее</a>
+				<a class="booking" href="#">Забронировать</a>
 				<div class="rank">Рейтинг: 8,9</div>
 			</div>
 			<div class ="hotel">
 				<img class="shelter-photo" src="img/villa.jpg" alt="villa">
-				<h2>Villas At Poco Diablo</h2>
+				<h2 class="name">Villas At Poco Diablo</h2>
 				<div class="stars">&#9733;&#9733;</div>
 				<span class= "host">Апартаменты</span>
 				<span>от 3500р</span>
 				<br>
-				<a href="#">Показать</a>
-				<a href="#">Забронировать</a>
+				<a class="show" href="#">Подробнее</a>
+				<a class="booking" href="#">Забронировать</a>
 				<div class="rank">Рейтинг: 9,2</div>
 			</div>
 		</main>
@@ -127,7 +129,7 @@
 					<a class="social-btn social-btn-ytb" href="#"><img src="img/youtube.png" alt="youtube"></a>
 				</section>
 				<section class="footer-item footer-copyright">
-					<p>Website by:</p>
+					<p>Website by</p>
 					<a class="btn" href="https://htmlacademy.ru"><img src="img/htmlacademy.png" alt="htmlacademy"></a>
 				</section>
 			</div>
