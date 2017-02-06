@@ -35,7 +35,7 @@ main{
 }
 
 footer {
-	margin-top: 31px;
+	    margin-top: 9px;
 }
 
 
@@ -687,9 +687,9 @@ form {
     /* height: 118px; */
     /* width: 1200px; */
     /*margin: 0 265px; */
-    padding: 0 150px;
+    /*padding: 0 150px;*/
     position: absolute;
-    left: 66px;
+    left: 218px;
 
 }
 
@@ -727,5 +727,5 @@ form {
 }
 
 .footer-copyright {
-	margin-left: -69px;
+	    margin-left: -44px;
 }
