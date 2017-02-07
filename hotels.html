@@ -32,91 +32,125 @@
 		</nav>
 		<main>
 			<div class="choice">
+			<form class="form-2" action="https://echo.htmlacademy.ru" method="get">
 				<div class="infrastructure" >
 					<span>Инфраструктура:</span>
-					<div>
-						<input type="checkbox" name="pool" id="choose-product-1">
-						<label for="choose-product-1" >Бассейн</label>
-					</div>
-					<div>
-						<input type="checkbox" name="parking" id="choose-product-2">
-						<label for="choose-product-2" >Парковка</label>
-					</div>
-					<div>
-						<input type="checkbox" name="wifi" id="choose-product-3">
-						<label for="choose-product-3" >WiFi</label>
-					</div>
+					<ul class="choose-product">
+					<li>
+						 <label class="login-checkbox">
+          <input type="checkbox" name="wifi">
+          <span class="checkbox-indicator"></span>
+          <span class="checkbox-name">Бассейн</span>
+        </label>
+					</li>
+					<li>
+						 <label class="login-checkbox">
+          <input type="checkbox" name="wifi">
+          <span class="checkbox-indicator"></span>
+          <span class="checkbox-name">Парковка</span>
+        </label>
+					</li>
+					<li>
+		  
+		  <label class="login-checkbox">
+          <input type="checkbox" name="wifi">
+          <span class="checkbox-indicator"></span>
+          <span class="checkbox-name">WIFI</span>
+        </label>
+					</li>
+					</ul>
 				</div>
 				<div class="type-of-shelter">
 					<span>Тип Жилья:</span>
-					<div>
-						<input type="checkbox" name="hotel" id="choose-product-4">
-						<label for="choose-product-4">Гостиница</label>
-					</div>
-					<div>
-						<input type="checkbox" name="motel" id="choose-product-5">
-						<label for="choose-product-5">Мотель</label>
-					</div>
-					<div>
-						<input type="checkbox" name="apartments" id="choose-product-6">
-						<label for="choose-product-6">Апартаменты</label>
-					</div>
+					<ul class="choose-product">
+					<li>
+						 <label class="login-checkbox">
+          <input type="checkbox" name="wifi">
+          <span class="checkbox-indicator"></span>
+          <span class="checkbox-name">Гостиница</span>
+        </label>
+					</li>
+					<li>
+						 <label class="login-checkbox">
+          <input type="checkbox" name="wifi">
+          <span class="checkbox-indicator"></span>
+          <span class="checkbox-name">Мотель</span>
+        </label>
+					</li>
+					<li>
+						 <label class="login-checkbox">
+          <input type="checkbox" name="wifi">
+          <span class="checkbox-indicator"></span>
+         <span class="checkbox-name">Апартаменты</span>
+        </label>
+					</li>	
+					</ul>
 				</div>
-				<div class="cost">
-					<span>Стоимость в сутки (р):</span>
-					<br>
-					<div class="price-box">
-						<span>от 0</span>
-						<span class="vertical-line">&#124;</span>
-						<span>до 3000</span>
-					</div>
-					<input type="range" min="0" max="3000" step="500" value="50">
-					<a class="range" href="#">Показать</a>
-				</div>
-			</div>
+				 <div class="filter-range">
+      <div class="filter-range-title">Стоимость в сутки (р):</div>
+      <div class="price-controls">
+        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+      </div>
+      <div class="range-controls">
+        <div class="scale">
+          <div class="bar"></div>
+        </div>
+        <div class="range-toggle range-toggle-min"></div>
+        <div class="range-toggle range-toggle-max"></div>
+      </div>
+      <button class="btn-transparent" type="submit">Показать</button>
+    </div>
+    </form>
 			<div class="find">
-				<h2>Найдено:3</h2>
+				<h2>Найдено: 3</h2>
 				<span class="sort">Сортировка:</span>
 				<a class="price" href ="#">по цене</a>
 				<a  class="type" href ="#">по типу</a>
 				<a class="mmr" href ="#">по рейтингу</a>
-				<div class="arrows">
+				<span class="arrows">
 					<a href="#" class="arrows right">&#9660;</a> 
 					<a href="#" class="arrows left">&#9650;</a>
-				</div>
+				</span>
 			</div>
 			<div class="hotel">
 				<img class="shelter-photo " src="img/amara.jpg" alt="amara">
 				<h2 class="name">Amara Resort &amp; Spa</h2>
 				<div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
 				<span class= "host">Гостиница</span>
-				<span>от 3500р</span>
-				<br>
+				<span>от 4000р</span>
+				<div class="rank">Рейтинг: 8,5</div>
+				<div class="buttons">
 				<a class="show" href="#">Подробнее</a>
 				<a  class="booking" href="#">Забронировать</a>
-				<div class="rank">Рейтинг: 8,5</div>
+				</div>
+				
 			</div>
 			<div class ="hotel">
 				<img class="shelter-photo" src="img/desert.jpg" alt="desert">
 				<h2 class="name">Desert Quail Inn</h2>
 				<div class="stars">&#9733;&#9733;&#9733;</div>
 				<span class= "host">Мотель</span>
-				<span>от 3500р</span>
-				<br>
+				<span>от 3000р</span>
+				<div class="rank">Рейтинг: 8,9</div>
+				<div class="buttons">
 				<a class="show" href="#">Подробнее</a>
 				<a class="booking" href="#">Забронировать</a>
-				<div class="rank">Рейтинг: 8,9</div>
+				</div>
+				
 			</div>
 			<div class ="hotel">
 				<img class="shelter-photo" src="img/villa.jpg" alt="villa">
 				<h2 class="name">Villas At Poco Diablo</h2>
 				<div class="stars">&#9733;&#9733;</div>
 				<span class= "host">Апартаменты</span>
-				<span>от 3500р</span>
-				<br>
+				<span>от 2000р</span>
+				<div class="rank">Рейтинг: 9,2</div>
+				<div class="buttons">
 				<a class="show" href="#">Подробнее</a>
 				<a class="booking" href="#">Забронировать</a>
-				<div class="rank">Рейтинг: 9,2</div>
+				</div>
+				
 			</div>
 		</main>
 		<footer class="main-footer">

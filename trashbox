@@ -1,0 +1,21 @@
+<div class="form">
+					<form action="https://echo.htmlacademy.ru" method="get">
+						<div class="log-in">Дата заезда:</div>
+						<div class="log-box"><span class="date">24 апреля 2017</span><span class="calendar"> &#128198;</span></div>
+						<div class="log-out">Дата выезда:</div>
+						<div class="log-box"><span class="date">4 июля 2017</span><span class="calendar">&#128198;</span></div>
+						<div class="adults">Взрослые:</div>
+						<div class="form-number">
+							<span class="minus"> &#10134;</span>
+							<span>2</span>
+							<span class="plus">&#10133;</span>
+						</div>
+						<div class="children">Дети:</div>
+						<div class="form-number">
+							<span class="minus"> &#10134;</span>
+							<span>0</span>
+							<span class="plus">&#10133;</span>
+						</div>
+						<a class="link" href="#">Найти</a>
+					</form>
+				</div>
