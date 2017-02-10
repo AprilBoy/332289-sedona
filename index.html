@@ -46,21 +46,21 @@
 						<span class="number">&mdash; №1 &mdash;</span>
 						<span class="discription">Седона - не аттракцион для туристов, там течет своя жизнь</span>
 					</div>
-					<img class="background-right" src="img/background-right.jpg" style="width:800px;" alt="background-right">
+					<img class="background-right" src="img/background-right.jpg" width="800" alt="background-right">
 				</div>
 				<div class="container">
 					<div class="container-item">
-						<img class="home" src="img/house.png" width="70" height="70" alt="home">
+						<img class="home" src="img/house.png" width="74" height="72" alt="home">
 						<span class="big-name-container">Жилье</span>
 						<span class="discription">Рекомендуем пожить в настоящем мотеле, все как в кино!</span>
 					</div>
 					<div class="container-item">
-						<img class="burger" src="img/burger.png" width="70" height="70" alt="food">
+						<img class="burger" src="img/burger.png" width="74" height="72"  alt="food">
 						<span class="big-name-container">Еда</span>
 						<span class="discription">Всегда заказывайте фирменный бургер, вы не разочаруетесь</span>
 					</div>
 					<div class="container-item">
-						<img class="box" src="img/box.png" width="70" height="70" alt="gift">
+						<img class="box" src="img/box.png" width="74" height="72"  alt="gift">
 						<span class="big-name-container">Сувениры</span>
 						<span class="discription">Не только китайского, но и местного производства!</span>
 					</div>
@@ -71,7 +71,7 @@
 						<span class="number">&mdash; №2 &mdash;</span>
 						<span class="discription">Да, по нему можно пройти! если конечно вы осмелитесь</span>
 					</div>
-					<img class="background-right" src="img/background-left.jpg" style="width:800px;" alt="background-left">
+					<img class="background-right" src="img/background-left.jpg" width="800" alt="background-left">
 				</div>
 				<div class=container-gray>
 					<div class="feature-item features-item-gray">
@@ -94,7 +94,7 @@
 			<div class="form-hotel">
 				<span class="headline">Заинтересовались?</span>
 				<div class="discription-holel">
-					<span>Укажите предполагаемыке даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</span>
+					<span>Укажите предполагаемыке даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</span>
 				</div>
 				<div class="brown">Поиск гостиницы в Седоне</div>
 			</div>
@@ -103,20 +103,24 @@
 					<form class="form-1" action="https://echo.htmlacademy.ru" method="get">
 						<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
 							<label for="date-login">Дата Заезда:</label>
-							<input class="log-box" type="text" id="date-login"  name="date-login" placeholder="24 апреля 2017">
+							<input class="log-box" type="text" id="date-login"  name="date-login" value="24 апреля 2017">
 							<label for="date-logout">Дата Выезда:</label>
-							<input class="log-box" type="text" id="date-logout" name="date-logout" placeholder="4 июля 2017">
+							<input class="log-box" type="text" id="date-logout" name="date-logout" value="4 июля 2017">
 							<div class="adults">Взрослые:</div>
 							<div class="form-number">
-								<span class="minus"> &#10134;</span>
-								<span>2</span>
-								<span class="plus">&#10133;</span>
+								<div class="form-number-box">
+									<span class="minus"> &#10134;</span>
+									<span>2</span>
+									<span class="plus">&#10133;</span>
+								</div>
 							</div>
 							<div class="children">Дети:</div>
 							<div class="form-number">
-								<span class="minus"> &#10134;</span>
-								<span>0</span>
-								<span class="plus">&#10133;</span>
+								<div class="form-number-box">
+									<span class="minus"> &#10134;</span>
+									<span>0</span>
+									<span class="plus">&#10133;</span>
+								</div>
 							</div>
 							<button class="btn" type="submit">Найти</button>
 						</form>
