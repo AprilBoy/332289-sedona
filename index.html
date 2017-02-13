@@ -96,36 +96,37 @@
 				<div class="discription-holel">
 					<span>Укажите предполагаемыке даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</span>
 				</div>
-				<div class="brown">Поиск гостиницы в Седоне</div>
-			</div>
-			<div class="map">
-				<div class="form">
-					<form class="form-1" action="https://echo.htmlacademy.ru" method="get">
-						<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-							<label for="date-login">Дата Заезда:</label>
-							<input class="log-box" type="text" id="date-login"  name="date-login" value="24 апреля 2017">
-							<label for="date-logout">Дата Выезда:</label>
-							<input class="log-box" type="text" id="date-logout" name="date-logout" value="4 июля 2017">
-							<div class="adults">Взрослые:</div>
-							<div class="form-number">
-								<div class="form-number-box">
-									<span class="minus"> &#10134;</span>
-									<span>2</span>
-									<span class="plus">&#10133;</span>
+				<div class="form-box">
+					<button id="form-button" class="brown">Поиск гостиницы в Седоне</button>
+					<div class="form">
+						<form class="form-1" action="https://echo.htmlacademy.ru" method="get">
+							<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+								<label for="date-login">Дата Заезда:</label>
+								<input class="log-box" type="text" id="date-login"  name="date-login" value="24 апреля 2017">
+								<label for="date-logout">Дата Выезда:</label>
+								<input class="log-box" type="text" id="date-logout" name="date-logout" value="4 июля 2017">
+								<div class="adults">Взрослые:</div>
+								<div class="form-number">
+									<div class="form-number-box">
+										<span class="minus"> &#10134;</span>
+										<span>2</span>
+										<span class="plus">&#10133;</span>
+									</div>
 								</div>
-							</div>
-							<div class="children">Дети:</div>
-							<div class="form-number">
-								<div class="form-number-box">
-									<span class="minus"> &#10134;</span>
-									<span>0</span>
-									<span class="plus">&#10133;</span>
+								<div class="children">Дети:</div>
+								<div class="form-number">
+									<div class="form-number-box">
+										<span class="minus"> &#10134;</span>
+										<span>0</span>
+										<span class="plus">&#10133;</span>
+									</div>
 								</div>
-							</div>
-							<button class="btn" type="submit">Найти</button>
-						</form>
+								<button class="btn" type="submit">Найти</button>
+							</form>
+						</div>
 					</div>
 				</div>
+				<div class="map"></div>
 			</main>
 			<footer class="main-footer">
 				<div class="footer-container">
@@ -142,5 +143,6 @@
 					</section>
 				</div>
 			</footer>
+			<script src="js/script.js"></script>
 		</body>
 		</html>

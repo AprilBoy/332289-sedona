@@ -6,8 +6,8 @@ body{
 	text-transform: uppercase;
 	box-shadow: 0 0 100px rgba(0,0,0,0.5);
 	line-height: 1.5;
-	width: 1280px;
 	margin:0 auto;
+	box-shadow: 0 0 0 100px rgba(0,0,0,0.5);
 
 }
 
@@ -31,7 +31,7 @@ h2{
 
 main{
 	width:1200px;
-	margin:0 37px;
+	margin:0 auto;
 
 }
 
@@ -40,7 +40,7 @@ width: 1200px;
 padding:0 40px;
 position:relative;
 z-index:10;
-	box-shadow: 0 0 100px rgba(0,0,0,0.5);
+	
 }*/
 
 .main-header{
@@ -90,11 +90,9 @@ z-index:10;
 .main-navigation{
 	background: #ffffff;
 	min-height: 56px;
-	/* width: 1200px; */
-	/* margin: 0 40px; */
-	/* margin-left: 63px; */
-
-
+	width: 1200px;
+	margin: 0 auto;
+	
 }
 
 .main-navigation > ul { 
@@ -103,7 +101,7 @@ z-index:10;
 	top: 2px;
 	margin: 0;
 	font-size: 0; 
-	padding: 0 40px; 
+	padding: 0 ; 
 	list-style: none;
 	font-weight:bold;
 
@@ -122,10 +120,9 @@ z-index:10;
 }
 
 .main-navigation a {
-	/* display: block; */
 	color: #000;
 	text-decoration: none;
-	/* padding: 20px 88px; */
+	
 }
 
 .main-navigation a:hover {
@@ -139,8 +136,8 @@ z-index:10;
 .index-logo img{
 	position: absolute;
 	z-index:2;
-	top: -1px;
-	left: 574px;
+	top: -2px;
+	left: 537px;
 	height: 69px;
 }
 
@@ -187,7 +184,7 @@ z-index:10;
 .choice {
 	color: #fff;
 	min-height: 219px;
-	margin: 0 73px;
+	
 
 
 }
@@ -208,7 +205,7 @@ z-index:10;
 .choose-product li {
 	list-style: none;
 	padding: 13px 0;
-	margin-top: -6px;
+	margin-top: -4px;
 
 
 }
@@ -271,8 +268,8 @@ z-index:10;
 
 .infrastructure {
 	float: left;
-	margin-right: 121px;
-	margin-left: 0;
+	margin-right: 120px;
+	margin-left: 71px;
 	margin-top: -2px;
 	font-size: 16px;
 	letter-spacing: 0.02em;
@@ -288,7 +285,7 @@ z-index:10;
 .filter-range {
 	width: 322px;
 	text-transform: uppercase;
-	margin: 27px 734px;
+	margin: 27px 805px;
 
 }
 
@@ -413,23 +410,24 @@ z-index:10;
 
 .find {
 	display: inline-block;
-	width: 1127px;
-	margin-top: 17px;
-	margin-left: 2px;
+	width: auto;
+	margin-top: 11px;
+	padding: 0 69px;
 	min-height: 73px;
 	border-bottom: 1px solid #e5e5e5;
-	margin-right: 40px;
 	color: #000000;
 }
 
 .find > h2 {
 	display:inline-block;
 	margin-right: 45px;
-	margin-left: -2px;
+	margin-left: 2px;
 }
 
 .hotel {
 	padding-top: 30px;
+	padding-left: 70px;
+	padding-right: 70px;
 	min-height: 120px;
 	border-bottom: 1px solid #e5e5e5;
 	color: #000000;
@@ -493,6 +491,7 @@ z-index:10;
 	font-size: 12px;
 	color: #bbbbbb;
 	text-decoration: none;
+	margin-right: 493px;
 	border-bottom: 1px dotted #bbbbbb;
 
 }
@@ -511,7 +510,6 @@ z-index:10;
 
 .arrows {
 	padding-top: 11px;
-	padding-right: 36px;
 	float: right;
 	text-decoration: none;
 	cursor: pointer;
@@ -615,7 +613,7 @@ z-index:10;
 
 .stars-and-rank {
 	margin-top: -59px;
-	margin-right: -4px;
+	margin-right: 4px;
 }
 
 .stars {
@@ -758,7 +756,7 @@ z-index:10;
 	float:left;
 }
 
-.form-hotel{
+.form-hotel {
 	display:flex;
 	flex-flow: column wrap;
 	align-items: center;
@@ -781,7 +779,7 @@ z-index:10;
 	line-height: 1.7;
 }
 
-.brown{
+.brown {
 	color: #fff;
 	font-size: 21px;
 	font-weight:bold;
@@ -790,7 +788,13 @@ z-index:10;
 	width: 568px;
 	padding: 27px 0;
 	margin-top: 48px;
+	border:none;
+	box-shadow:none;
+	cursor:pointer;
+	text-transform:uppercase;
+	
 }
+
 
 .map{
 	background: url("../img/map1.jpg") no-repeat;
@@ -803,7 +807,21 @@ z-index:10;
 	background:#fff;
 	width:569px;
 	margin:0 auto;
+	position:absolute;
+	display:none;
+	max-height:500px;
+	transition:max-height 0.6s linear;
 
+}
+
+
+.form-show {
+	display:block;
+	animation: bounce 0.6s reverse;
+}
+
+@keyframes bounce {
+	to{transform:translateY(30px);}
 }
 
 .form-1 {
@@ -813,6 +831,7 @@ z-index:10;
 	align-items:baseline;
 	padding:55px 56px 0;
 	font-weight: bold;
+
 	
 }
 
@@ -852,8 +871,8 @@ z-index:10;
 	background: #ffffff;
 	background-image: url("../img/calendar-blue.png");
 	background-repeat: no-repeat;
-	background-position: 98% 8px;
-	
+	background-position: 98.5% 8px;
+	border: none ;
 }
 
 input[type="text"]:focus {
@@ -958,7 +977,6 @@ input[type="text"]:focus {
 
 .main-footer-hotels {
 	margin-top: 12px;
-	margin-left: 3px;
 	padding-bottom: 9px;
 }
 
@@ -986,7 +1004,7 @@ input[type="text"]:focus {
 }
 
 .footer-contacts {
-	margin-left: 170px;
+	margin-left: 208px;
 	margin-top: 31px;
 	margin-right: 170px;
 
