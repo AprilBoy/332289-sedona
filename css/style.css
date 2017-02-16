@@ -435,7 +435,7 @@ main
 	width: 80%;
 	height: 2px;
 
-	background: #fffffffff;
+	background: #ffffff;
 }
 
 .range-toggle
@@ -448,7 +448,7 @@ main
 
 	cursor: pointer;
 
-	border: 8px solid #fffffffff;
+	border: 8px solid #ffffff;
 	border-radius: 50%;
 	background: #ababab;
 	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
@@ -997,29 +997,63 @@ main
 	position: absolute;
 
 	width: 569px;
-	max-height: 500px;
 	margin: 0 auto;
-
-	transition: max-height .6s linear;
+	
 
 	background: #ffffff;
-	animation: bounce 0.6s reverse;
+	animation: drop-down 0.6s forwards;
 }
 
+@keyframes drop-down 
+{
+	0%
+	{
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	70%
+	{
+		opacity:1;
+		transform: translateY(30px);
+	}
+	
+	
+	100%
+	{
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+}
 
 .form-show
-{
-	display: none;
 
-	
+{	
+
+	animation: fly-out 0.6s forwards;
 }
 
-@keyframes bounce
+@keyframes fly-out
 {
-	to
+		
+	0%
 	{
-		transform: translateY(50px);
+		opacity: 1;
+		transform: translateY(0);
 	}
+70%
+	{
+		opacity:1;
+		transform: translateY(30px);
+	}
+	100%
+	{
+		opacity: 0;
+		transform: translateY(-500px);
+	}
+	
+		
+	
 }
 
 .form-1
@@ -1028,7 +1062,7 @@ main
 
 	display: flex;
 
-	padding: 55px 56px 0;
+	padding: 56px 57px ;
 
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -1077,6 +1111,7 @@ main
 	background-repeat: no-repeat;
 	    background-position: 98% 6px;
 	    padding-top:7px;
+	    padding-left: 11px;
 	    padding-bottom:6px;
 	outline:none;
 }
@@ -1175,7 +1210,6 @@ main
 
 	width: 100%;
 	margin-top: 55px;
-	margin-bottom: 56px;
 	padding: 17.5px 8px;
 
 	cursor: pointer;
