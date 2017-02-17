@@ -129,18 +129,17 @@ main
     vertical-align: top;
 }
 
+ #active
+{
+	color: #766357;
+	
+}
+
 .main-navigation a
 {
     text-decoration: none;
 
     color: #000000;
-}
-
-.main-navigation a:visited 
-{
-	color: #766357;
-	outline:none;
-	text-decoration: none;
 }
 
 
@@ -153,6 +152,7 @@ main
 {
     color: #bbbbbb;
 }
+
 
 
 .index-logo img
