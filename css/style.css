@@ -1021,6 +1021,12 @@ main
     background: url("../img/map1.jpg") no-repeat;
 }
 
+iframe {
+	width:1200px;
+	min-height:474px;
+	border:0;
+}
+
 .form
 {
     position: absolute;
