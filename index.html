@@ -10,18 +10,18 @@
 <body>
 	<header class="main-header">
 		<nav class="main-navigation">
-			<ul>
+			<ul class="float-left">
 				<li>
 					<a id="active" href="#">Информация</a>
 				</li>
 				<li>
 					<a href="#">Фото и Видео</a>
 				</li>
-				<li>
-					<a class="index-logo">
-						<img src="img/city-of-sedona.png"  width="140" height="70"  alt="city-of-sedona">
-					</a>
-				</li>
+			</ul>
+			<a  href="./index.html" class="index-logo">
+				<img src="img/city-of-sedona.png" width="140" height="70" alt="city-of-sedona">
+			</a>
+			<ul class="float-right">
 				<li>
 					<a href="#">Карта Штата</a>
 				</li>
@@ -33,7 +33,7 @@
 	</header>
 	<main>
 		<div class="promo">
-			<img class= "welcome" src="img/intro.png" alt="intro">
+			<img class= "welcome" width="458" height="352" src="img/intro.png" alt="intro">
 			<div class="mask"></div>
 		</div>
 		<section class="features">
@@ -47,7 +47,7 @@
 					<span class="number">&mdash; №1 &mdash;</span>
 					<span class="discription">Седона - не аттракцион для туристов, там течет своя жизнь</span>
 				</div>
-				<img class="background-right" src="img/background-right.jpg" width="800" alt="background-right">
+				<img class="background-right" src="img/background-right.jpg" width="800" height="256" alt="background-right">
 			</div>
 			<div class="container">
 				<div class="container-item">
@@ -72,7 +72,7 @@
 					<span class="number">&mdash; №2 &mdash;</span>
 					<span class="discription">Да, по нему можно пройти! если конечно вы осмелитесь</span>
 				</div>
-				<img class="background-right" src="img/background-left.jpg" width="800" alt="background-left">
+				<img class="background-right" src="img/background-left.jpg" width="800" height="256" alt="background-left">
 			</div>
 			<div class=container-gray>
 				<div class="feature-item features-item-gray">
@@ -126,7 +126,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="map"></div>
+		<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8738.821847033325!2d-111.76000135590367!3d34.87231511433332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1487410960910" width="1200" height="474" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
 	</main>
 	<footer class="main-footer">
 		<div class="footer-container clearfix">
@@ -134,7 +136,7 @@
 				<a href="#">#visitsedona</a>
 			</section>
 			<section class="footer-item footer-social">
-			<a class="social-btn" href="#"><div class="social-btn-twt"><div class="icon-twt"></div></div></a>
+				<a class="social-btn" href="#"><div class="social-btn-twt"><div class="icon-twt"></div></div></a>
 				<a class="social-btn" href="#"><div class="social-btn-fb"><div class="icon-fb"></div></div></a>
 				<a class="social-btn" href="#"><div class="social-btn-ytb"><div class="icon-ytb"></div></div></a>
 			</section>

@@ -67,7 +67,7 @@ main
     margin-top: -60px;
     padding-top: 132px;
 
-    background: url('../img/background-photo.jpg') no-repeat  ;
+    background: url("../img/background-photo.jpg") no-repeat  ;
     background-size: 1200px 510px;
 }
 
@@ -87,7 +87,7 @@ main
 
     content: '';
 
-    background: url('../img/main-background-mask.png') no-repeat;
+    background: url("../img/main-background-mask.png") no-repeat;
     background-size: 1200px 58px;
 }
 
@@ -107,13 +107,32 @@ main
     font-weight: bold;
 
     position: relative;
-    top: 2px;
-    left: -5px;
+        top: 5px;
+    left: -3px;
 
     margin: 0;
     padding: 0 ;
 
     list-style: none;
+}
+.float-left {
+	float:left;
+}
+.float-left li:last-child {
+	margin-left: 4px;
+}
+
+.float-right {
+	float:right;
+}
+
+.float-right li:first-child {
+	letter-spacing: 0.4px;
+    margin-right: 7px;
+}
+
+.float-right li:last-child {
+	margin-right: -11px;
 }
 
 .main-navigation  li
@@ -160,7 +179,7 @@ main
     position: absolute;
     z-index: 2;
     top: 0;
-    left: 536px;
+    left: 604px;
 }
 
 .welcome
@@ -174,17 +193,17 @@ main
 .features
 {
     width: 1200px;
-    margin-top: 37px;
+    margin-top: 39px;
 
     background: #fff;
 }
 
 .reason
 {
-    width: 625px;
-    height: 100px;
+    width: 530px;
+    min-height: 100px;
     margin: 0 auto;
-    margin-bottom: 56px;
+    margin-bottom: 54px;
 
     text-align: center;
 }
@@ -217,7 +236,7 @@ main
     padding-top: 2px;
 
     color: #fff;
-    background: url(../img/filter-background.jpg) no-repeat 50% 4px;
+    background: url("../img/filter-background.jpg") no-repeat 50% 4px;
     background-size: 1200px 269px;
 }
 
@@ -265,7 +284,7 @@ main
 
     cursor: pointer;
 
-    background-image: url(../img/box-unchecked.png);
+    background-image: url("../img/box-unchecked.png");
     background-repeat: no-repeat;
     background-position: 100% -1px;
 }
@@ -289,7 +308,7 @@ main
     content: ' ';
     cursor: pointer;
 
-    background-image: url(../img/box-checked.png);
+    background-image: url("../img/box-checked.png");
     background-repeat: no-repeat;
     background-position: 100% -1px;
 }
@@ -999,7 +1018,7 @@ main
     min-height: 474px;
     margin: 0 auto;
 
-    background: url('../img/map1.jpg') no-repeat;
+    background: url("../img/map1.jpg") no-repeat;
 }
 
 .form
@@ -1082,7 +1101,7 @@ main
 
 .form input.log-box
 {
-    background-image: url('../img/calendar.png') ;
+    background-image: url("../img/calendar.png") ;
     background-repeat: no-repeat;
     background-position: 97% 8px;
 }
@@ -1112,7 +1131,7 @@ main
 {
     border: none;
     background: #ebebeb;
-    background-image: url('../img/calendar-black.png') ;
+    background-image: url("../img/calendar-black.png") ;
     background-repeat: no-repeat;
     background-position: 97% 8px;
 }
@@ -1126,7 +1145,7 @@ main
     border: 2px solid #e5e5e5 ;
     outline: none;
     background: #fff;
-    background: url('../img/calendar-blue.png') ;
+    background: url("../img/calendar-blue.png") ;
     background-repeat: no-repeat;
     background-position: 98% 6px;
 }
@@ -1190,13 +1209,17 @@ main
 
 .form-number-box
 {
-    width: 77px;
-    margin-left: 12px;
+   width: 77px;
+    margin-left: 24px;
 }
 
 .form-number-box span:nth-child(2n)
 {
-    margin: 0 16px;
+     margin: 0 23px;
+}
+
+.minus {
+	    margin-left: -29px;
 }
 
 .minus,
@@ -1258,7 +1281,7 @@ main
 
 .footer-container
 {
-    margin-top: 15px;
+    margin-top: 13px;
 }
 
 .clearfix::after,
@@ -1292,7 +1315,7 @@ clear: both;
 {
     margin-top: 31px;
     margin-right: 170px;
-    margin-left: 131px;
+    margin-left: 132px;
 }
 
 .footer-social
@@ -1325,7 +1348,7 @@ clear: both;
     padding-top: 18px;
     padding-bottom: 19px;
 
-    background: url('../img/twetter-active.png') no-repeat;
+    background: url("../img/twetter-active.png") no-repeat;
     background-position: 15px 17px;
 }
 
@@ -1334,7 +1357,7 @@ clear: both;
     padding-top: 13px;
     padding-bottom: 19px;
 
-    background: url(../img/FB-active.png) no-repeat;
+    background: url("../img/FB-active.png") no-repeat;
     background-position: 18px 13px;
 }
 
@@ -1343,7 +1366,7 @@ clear: both;
     padding-top: 8px;
     padding-bottom: 24px;
 
-    background: url(../img/youtube-active.png) no-repeat;
+    background: url("../img/youtube-active.png") no-repeat;
     background-position: 13px 16px;
 }
 
@@ -1351,7 +1374,7 @@ clear: both;
     padding-top: 18px;
     padding-bottom: 19px;
 
-    background: url(../img/twetter.png) no-repeat;
+    background: url("../img/twetter.png") no-repeat;
     background-position: 15px 17px;
 }
 
@@ -1361,7 +1384,7 @@ clear: both;
     padding-top: 13px;
     padding-bottom: 19px;
 
-    background: url(../img/FB.png) no-repeat;
+    background: url("../img/FB.png") no-repeat;
     background-position: 18px 13px;
 }
 
@@ -1369,7 +1392,7 @@ clear: both;
     padding-top: 8px;
     padding-bottom: 24px;
 
-    background: url(../img/youtube.png) no-repeat;
+    background: url("../img/youtube.png") no-repeat;
     background-position: 13px 16px;
 }
 
@@ -1389,15 +1412,15 @@ clear: both;
     width: 115px;
     min-height: 50px;
 
-    background: url('../img/htmlacademy.png') no-repeat;
+    background: url("../img/htmlacademy.png") no-repeat;
 }
 
 .htmlacademy:hover
 {
-    background: url('../img/htmlacademy-blue.png') no-repeat;
+    background: url("../img/htmlacademy-blue.png") no-repeat;
 }
 
 .htmlacademy:active
 {
-    background: url('../img/htmlacademy-grey.png') no-repeat;
+    background: url("../img/htmlacademy-grey.png") no-repeat;
 }
