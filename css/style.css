@@ -1019,11 +1019,12 @@ main
     margin: 0 auto;
 
     background: url("../img/map1.jpg") no-repeat;
+    background-size: 1200px 475px;
 }
 
 iframe {
 	width:1200px;
-	min-height:474px;
+	min-height:475px;
 	border:0;
 }
 
